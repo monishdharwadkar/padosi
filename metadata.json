@@ -1,0 +1,6 @@
+{
+  "name": "Padosi",
+  "description": "A hyperlocal resource sharing platform for Indian housing societies to easily lend and borrow everyday items with trust.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

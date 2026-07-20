@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "user_dev",
+      "name": "Monish (You)",
+      "phoneNumber": "+91 98450 19901",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "trustScore": null,
+      "joinedAt": "2026-06-17T19:19:35.841Z",
+      "reviewsCount": 0,
+      "onTimeReturnRate": 100,
+      "noShowRate": 0,
+      "disputeHistoryCount": 0
+    },
+    {
+      "id": "user_aisha",
+      "name": "Aisha Vance",
+      "phoneNumber": "+91 99001 01442",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "trustScore": 98,
+      "joinedAt": "2025-07-17T19:19:35.842Z",
+      "reviewsCount": 24,
+      "onTimeReturnRate": 100,
+      "noShowRate": 0,
+      "disputeHistoryCount": 0
+    },
+    {
+      "id": "user_carlos",
+      "name": "Carlos Mendez",
+      "phoneNumber": "+91 98860 01773",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "trustScore": 92,
+      "joinedAt": "2026-03-19T19:19:35.842Z",
+      "reviewsCount": 12,
+      "onTimeReturnRate": 94,
+      "noShowRate": 2,
+      "disputeHistoryCount": 0
+    },
+    {
+      "id": "user_priya",
+      "name": "Priya Sharma",
+      "phoneNumber": "+91 97410 01224",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+      "trustScore": 88,
+      "joinedAt": "2026-01-18T19:19:35.842Z",
+      "reviewsCount": 8,
+      "onTimeReturnRate": 90,
+      "noShowRate": 5,
+      "disputeHistoryCount": 1
+    },
+    {
+      "id": "user_8923z9f",
+      "name": "Neighbor #8888",
+      "phoneNumber": "+91 88888 88888",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "trustScore": null,
+      "joinedAt": "2026-07-17T19:27:15.601Z",
+      "reviewsCount": 0,
+      "onTimeReturnRate": 100,
+      "noShowRate": 0,
+      "disputeHistoryCount": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "item_hedge",
+      "title": "Bosch Electric Hedge Trimmer",
+      "description": "Powerful 450W electric trimmer, perfect for grooming bushes and trimming wild garden borders. Lightweight and easy to maneuver.",
+      "category": "Yard & Gardening",
+      "ownerId": "user_aisha",
+      "ownerName": "Aisha Vance",
+      "ownerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": 98,
+      "pricePerDay": 350,
+      "deposit": 1500,
+      "latitude": 12.9385,
+      "longitude": 77.6210,
+      "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-06-27T19:19:35.842Z"
+    },
+    {
+      "id": "item_drill",
+      "title": "DeWalt Cordless Compact Drill Set",
+      "description": "20V high-performance brushless drill. Includes 2 lithium-ion batteries, a charger, and a rugged carrying case with drill bits.",
+      "category": "Tools & DIY",
+      "ownerId": "user_carlos",
+      "ownerName": "Carlos Mendez",
+      "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": 92,
+      "pricePerDay": 250,
+      "deposit": 1000,
+      "latitude": 12.9716,
+      "longitude": 77.6412,
+      "imageUrl": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-07-02T19:19:35.842Z"
+    },
+    {
+      "id": "item_tent",
+      "title": "Coleman 4-Person Waterproof Cabin Tent",
+      "description": "Super easy 10-minute setup cabin tent. Features rainfly, storage pockets, and welded corners to keep you completely dry outdoors.",
+      "category": "Outdoors & Camping",
+      "ownerId": "user_priya",
+      "ownerName": "Priya Sharma",
+      "ownerAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": 88,
+      "pricePerDay": 500,
+      "deposit": 2500,
+      "latitude": 12.9121,
+      "longitude": 77.6445,
+      "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-07-07T19:19:35.842Z"
+    },
+    {
+      "id": "item_espresso",
+      "title": "Breville Barista Express Espresso Machine",
+      "description": "Create third-wave specialty coffee at home. Built-in grinder, precise PID temperature control, and powerful steam wand for microfoam.",
+      "category": "Kitchen Appliances",
+      "ownerId": "user_aisha",
+      "ownerName": "Aisha Vance",
+      "ownerAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": 98,
+      "pricePerDay": 800,
+      "deposit": 5000,
+      "latitude": 12.9299,
+      "longitude": 77.5824,
+      "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-07-12T19:19:35.842Z"
+    },
+    {
+      "id": "item_cotton",
+      "title": "Nostalgia Cotton Candy Maker",
+      "description": "Retro party pleaser! Works with hard candy, sugar-free candy, or flossing sugar. Includes 2 reusable cones and measuring scoop.",
+      "category": "Party Equipment",
+      "ownerId": "user_carlos",
+      "ownerName": "Carlos Mendez",
+      "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": 92,
+      "pricePerDay": 400,
+      "deposit": 1500,
+      "latitude": 12.9312,
+      "longitude": 77.6185,
+      "imageUrl": "https://images.unsplash.com/photo-1533223129579-65d1c62ee237?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-07-16T19:19:35.842Z"
+    },
+    {
+      "id": "item_fnqfl6n",
+      "title": "Camping Folding Chairs Set",
+      "description": "Set of 2 portable folding chairs with cup holders, perfect for community gatherings or balcony evenings.",
+      "category": "Outdoors & Camping",
+      "ownerId": "user_dev",
+      "ownerName": "Monish (You)",
+      "ownerAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "ownerTrustScore": null,
+      "pricePerDay": 150,
+      "deposit": 1000,
+      "latitude": 12.9352,
+      "longitude": 77.6245,
+      "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=600&q=80",
+      "availability": [
+        {
+          "start": "2026-07-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "createdAt": "2026-07-17T19:22:24.250Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking_7z75563",
+      "itemId": "item_drill",
+      "itemTitle": "DeWalt Cordless Compact Drill Set",
+      "itemImageUrl": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80",
+      "itemOwnerId": "user_carlos",
+      "borrowerId": "user_dev",
+      "borrowerName": "Monish (You)",
+      "borrowerAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "startDate": "2026-07-18",
+      "endDate": "2026-07-19",
+      "totalPrice": 250,
+      "deposit": 1000,
+      "status": "requested",
+      "pickupPhotoOwner": null,
+      "pickupPhotoBorrower": null,
+      "pickupNotes": null,
+      "returnPhotoOwner": null,
+      "returnPhotoBorrower": null,
+      "returnNotes": null,
+      "conditionReport": null,
+      "paymentStatus": "none",
+      "disputeNotes": null,
+      "createdAt": "2026-07-17T19:21:10.777Z",
+      "updatedAt": "2026-07-17T19:21:10.777Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_lgn7zlj",
+      "bookingId": "booking_7z75563",
+      "senderId": "user_carlos",
+      "content": "Hey Monish (You)! Thanks for requesting my DeWalt Cordless Compact Drill Set. Let me review the dates and approve the booking.",
+      "createdAt": "2026-07-17T19:21:10.777Z"
+    }
+  ]
+}
